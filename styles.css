@@ -1,0 +1,49 @@
+﻿body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+thead tr th{
+    color: white;
+    background-color: #01987A;
+    text-align: center;
+}
+
+thead tr th:first-child{
+    border-top-left-radius: 10px;
+    
+}
+
+thead tr th:last-child{
+    border-top-right-radius: 10px;
+    
+}
+
+table{
+    border-bottom: 2px solid #01987A;
+    border-radius: 10px 10px 0 0;
+}
+
+td{
+    text-align: center;
+    color: #242424;
+}
+
+.btn{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #01987A;
+    display: flex;
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 10px;
+    color: #01987A;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.btn:hover{
+    background-color: #01987A;
+    color: white;
+}
